@@ -1,0 +1,50 @@
+.sp01Container {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  box-shadow: 0 1px 10px 0 var(--boxShadow);
+  padding: 16px;
+  margin-top: 12px;
+  height: max-content;
+  border-radius: 12px;
+}
+.sp01ProfileList {
+  width: 100%;
+}
+.sp01ProfileCard {
+  display: flex;
+  width: 100%;
+  margin: 24px 0px;
+}
+.sp01ProfileImage {
+  height: 45px;
+  border-radius: 15px;
+}
+.sp01ProfileInfo {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 6px;
+  font-size: 18px;
+  font-weight: 500;
+}
+@media only screen and (max-width: 1560px) {
+  .sp01ProfileInfo {
+    font-size: 14px;
+  }
+  .sp01ProfileInfo i {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .sp01ProfileInfo {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .sp01Container {
+    display: none;
+  }
+}

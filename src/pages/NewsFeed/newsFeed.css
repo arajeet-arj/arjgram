@@ -1,0 +1,17 @@
+.nf01Container {
+  padding: 24px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.nf01ListContainer {
+  width: 60%;
+}
+
+@media only screen and (max-width: 768px) {
+  .nf01Container {
+    padding: 12px 0px;
+  }
+  .nf01ListContainer {
+    width: 100%;
+  }
+}

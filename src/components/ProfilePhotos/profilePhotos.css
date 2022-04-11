@@ -1,0 +1,40 @@
+.pp01Container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+}
+.pp01DisplayButtons {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid var(--boxShadow);
+  padding: 12px 0px;
+}
+
+.pp01Button {
+  padding: 8px 24px;
+  border: 1px solid var(--subtext);
+  color: var(--subtext);
+  border-radius: 8px;
+  margin: 0px 8px;
+}
+.pp01Button.active {
+  color: var(--groww-secondary);
+  border: 1px solid var(--groww-secondary);
+}
+.pp01ListContainer {
+  width: 80%;
+  margin: auto;
+}
+@media only screen and (max-width: 1024px) {
+  .pp01ListContainer {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .pp01Container {
+    margin-top: 12px;
+  }
+  .pp01ListContainer {
+    width: 100%;
+  }
+}

@@ -1,0 +1,23 @@
+.hdr01Container {
+  box-shadow: 0 8px 8px var(--boxShadow);
+  position: sticky;
+  top: 0;
+  background-color: var(--white);
+  z-index: 99;
+}
+.hdr01Logo {
+  font-family: "Style Script", cursive;
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  color: var(--groww-secondary);
+}
+
+@media only screen and (max-width: 1024px) {
+}
+
+@media only screen and (max-width: 768px) {
+  .hdr01Container {
+    padding: 0px 16px;
+  }
+}

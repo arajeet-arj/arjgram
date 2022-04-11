@@ -1,0 +1,79 @@
+.lp01Container {
+  padding: 12px;
+  padding-bottom: 24px;
+  box-shadow: 0 1px 10px 0 var(--boxShadow);
+  width: 100%;
+  min-width: 260px;
+  border-radius: 12px;
+  margin: 12px 0px;
+}
+.lp01ProfileContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.lp01ProfileContainer .lp01ProfilePhoto {
+  height: 42px;
+  border-radius: 50%;
+}
+.lp01NameLocation {
+  margin-left: 12px;
+}
+.lp01Username {
+  font-size: 18px;
+  font-weight: 600;
+}
+.lp01UserLocation {
+  font-size: 12px;
+}
+.lp01Photo {
+  height: 100%;
+  max-height: 612px;
+  width: 100%;
+  object-fit: cover;
+  margin: 12px 0px;
+}
+.lp01Stats {
+  margin-bottom: 8px;
+}
+.lp01StatItem {
+  display: flex;
+  font-weight: 500;
+  font-size: 18px;
+}
+.lp01StatItem i {
+  color: var(--groww-secondary);
+  font-weight: 700;
+  margin-right: 6px;
+}
+.lp01PhotoCaption {
+  font-size: 16px;
+}
+.lp01Time {
+  font-size: 12px;
+  margin-top: 6px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .lp01Container {
+    width: 90%;
+  }
+  .lp01Photo {
+    max-height: 420px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .lp01Photo {
+    max-height: 380px;
+  }
+  .lp01Username {
+    font-size: 16px;
+  }
+  .lp01StatItem {
+    font-size: 16px;
+  }
+  .lp01PhotoCaption {
+    font-size: 14px;
+  }
+}
